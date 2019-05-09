@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: iot-platform-location-server
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:8868/
+      name: iot-platform-location-server-application,common
+#management:
+#  security:
+#    enabled: false
